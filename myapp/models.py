@@ -4,13 +4,25 @@ from django.db import models
 
 # Create your models here.
 class main_year_data(models.Model):
+	 BauxitePlan = models.CharField(max_length = 100)
+	 Apr = models.IntegerField(null = True,blank = True)
+	 May = models.IntegerField(null = True,blank = True)
+	 Jun = models.IntegerField(null = True,blank = True)
+	 Jul = models.IntegerField(null = True,blank = True)
+	 Aug = models.IntegerField(null = True,blank = True)
+	 Sep = models.IntegerField(null = True,blank = True)
+	 Oct = models.IntegerField(null = True,blank = True)
+	 Nov = models.IntegerField(null = True,blank = True)
+	 Dec = models.IntegerField(null = True,blank = True)
+	 Jan = models.IntegerField(null = True,blank = True)
+	 Feb = models.IntegerField(null = True,blank = True)
+	 Mar = models.IntegerField(null = True,blank = True)
 
-
-	 Hydrate_Production = models.IntegerField()
-	 Specific_Consumption = models.IntegerField()
-	 No_of_days = models.IntegerField()
-	 Consumption = models.IntegerField()
-	 Daily_Consumption = models.IntegerField()
+	 # Hydrate_Production = models.IntegerField()
+	 # Specific_Consumption = models.IntegerField()
+	 # No_of_days = models.IntegerField()
+	 # Consumption = models.IntegerField()
+	 # Daily_Consumption = models.IntegerField()
 	 # Opening_Stock = models.IntegerField()
 	 # At_Plant = models.IntegerField()
 	 # At_Port  = models.IntegerField()
